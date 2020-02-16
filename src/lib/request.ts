@@ -356,6 +356,8 @@ export default class ServiceRequest {
         return source.replace(/\n/g, " ");
     }
 
+    protected async convertUserIdsInTextToNames(text: string): string {
+    }
 
     /**
      * Search for a ticket based on a unique Slack TS value (slack timestamp).
