@@ -24,6 +24,7 @@
     "@slack/web-api": "^5.7.0",
     "assert": "^2.0.0",
     "debug": "^4.1.1",
+    "got": "^10.7.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
